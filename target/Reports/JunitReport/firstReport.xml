@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="0.622">
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials" time="0.069">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "vezitadocter@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 2" time="0.006">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "doctor1@yopmail.com" and "12345678".......................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 3" time="0.007">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "newregister0@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 4" time="0.009">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "newregister1@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 5" time="0.004">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "newregister2@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 6" time="0.003">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "newregister3@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 7" time="0.006">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "newregister4@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functionality" name="To test login functionality with correct credentials 8" time="0.005">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user has provided the url of login page.................................passed
+When User inputs "newregister5@yopmail.com" and "12345678"..................passed
+And Press the login button..................................................passed
+Then User should navigate to profile verification page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test signup functionality" name="To test signup process" time="0.024">
+        <system-out><![CDATA[Given Browser is still open.................................................passed
+And User moved to login page................................................passed
+When User move from login page to signup page...............................passed
+And user inputs non registered "newregister0@yopmail.com" and "12345678"....passed
+And user input same "12345678" to confirm password field also select privacy checkbox.passed
+Then user should get prompt.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
